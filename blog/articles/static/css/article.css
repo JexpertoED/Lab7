@@ -1,0 +1,78 @@
+body {
+    background: #577cb4;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #f5f8ff;
+}
+
+div {
+    display: block;
+}
+
+.archive {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header a {
+    float: right;
+    text-align: right;
+}
+
+.archiveHeader a {
+    float: right;
+    text-align: right;
+    padding: 10px;
+}
+
+.article-info div {
+    display: inline;
+}
+
+.article-created-date {
+    float: right;
+    text-align: right;
+}
+
+.fold-button {
+    float: right;
+    text-align: right;
+}
+
+.center_pos {
+    text-align: center;
+}
+
+.article-text {
+    text-align: justify;
+}
+
+a:link {
+    color: #fff7b2;
+}
+
+a:visited {
+    color: #bbfff3;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.one-post.folded .article-author {
+    display: none;
+}
+
+.one-post.folded .article-created-date {
+    display: none;
+}
+
+.one-post.folded .article-text {
+    display: none;
+}
